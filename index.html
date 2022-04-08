@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./nav_footer.css">
+   
+</head>
+<body>
+
+<header>
+        <img src="images/fluffylogo(300X300).png" alt="happy cat logo" style="width: 150px;">
+        <img src="images/companyname(1113X300).jpg" alt="fluffy friends cat daycare" id="coname" style="width: 300px;">
+    </header>       
+  
+
+    <div class="navbar"> Home</div>
+    <div class="row">
+        
+        <div class="column1">
+            <form action="" method="get"  name="myForm" id="form" onsubmit="return myfunc()" >
+            <h1>Cat Intake Form</h1>
+            <div class="formScetion">
+                <div class="col1">
+                    <div class="inputControl">
+                    <label for="catName">Name of Cat</label>
+                    <input type="text" name="catName" id="catName" class="set" >
+                    <div class="error"></div>
+                    </div>
+                    <label for="days">Days Needed</label><br>
+                    <label for="days" id="check"></label>
+                    <section class="row1">
+                        <section>
+                        <label for="mon">Mon.</label>
+                        <input type="checkbox" name="mon" id="mon" >
+                    </section>
+                    <section>
+                        <label for="mon">Tue.</label>
+                        <input type="checkbox" name="tue" id="tue" >
+                    </section>
+                    <section>
+                        <label for="wed">Wed.</label>
+                        <input type="checkbox" name="wed" id="wed" >
+                    </section>
+                    <section>
+                        <label for="thu">Thu.</label>
+                        <input type="checkbox" name="thu" id="thu" >
+                    </section>
+                    <section>
+                        <label for="thu">Fri.</label>
+                        <input type="checkbox" name="fri" id="fri" >
+                    </section>
+                    <section>
+                        <label for="thu">Sat.</label>
+                        <input type="checkbox" name="sat" id="sat" disabled >
+                    </section>
+                    <section>
+                        <label for="thu">Sun.</label>
+                        <input type="checkbox" name="sun" id="sun" disabled>
+                    </section>
+                    </section>
+                    <section class="row">
+                        <section>
+                            <label for="timeArrive">Time Arrive</label><br>
+                            <label for="timeArrive" id="timeA"></label><br>
+                            <select name="timeArrive" id="timeArrive">
+                                <option value="6:00 AM" selected>6:00 AM</option>
+                                <option value="6:30 AM">6:30 AM</option>
+                                <option value="7:00 AM">7:00 AM</option>
+                                <option value="7:30 AM">7:30 AM</option>
+                                <option value="8:00 AM">8:00 AM</option>
+                                <option value="8:30 AM">8:30 AM</option>
+                                <option value="9:00 AM">9:00 AM</option>
+                                <option value="9:30 AM">9:30 AM</option>
+                                <option value="10:00 AM">10:00 AM</option>
+                                <option value="10:30 AM">10:30 AM</option>
+                                <option value="11:00 AM">11:00 AM</option>
+                                <option value="11:30 AM">11:30 AM</option>
+                                <option value="12:00 PM">12:00 PM</option>
+                                <option value="12:30 PM">12:30 PM</option>
+                                <option value="1:00 PM">1:00 PM</option>
+                                <option value="1:30 PM">1:30 PM</option>
+                                <option value="2:00 PM">2:00 PM</option>
+                                <option value="2:30 PM">2:30 PM</option>
+                                <option value="3:00 PM">3:00 PM</option>
+                                <option value="3:30 PM">3:30 PM</option>
+                                <option value="4:00 PM">4:00 PM</option>
+                                <option value="4:30 PM">4:30 PM</option>
+                                <option value="5:00 PM">5:00 PM</option>
+                                <option value="5:30 PM">5:30 PM</option>
+                                <option value="6:00 PM">6:00 PM</option>
+                                <option value="6:30 PM">6:30 PM</option>
+                                <option value="7:00 PM">7:00 PM</option>
+                                <option value="7:30 PM">7:30 PM</option>
+                                <option value="8:00 PM">8:00 PM</option>
+                                <option value="8:30 PM">8:30 PM</option>
+                                <option value="9:00 PM">9:00 PM</option>
+                                <option value="9:30 PM">9:30 PM</option>
+                                <option value="10:00 PM">10:00 PM</option>
+                                <option value="10:30 PM">10:30 PM</option>
+                                <option value="11:00 PM">11:00 PM</option>
+                                <option value="11:30 PM">11:30 PM</option>
+                            </select>
+                            
+                        </section>
+                        <section>
+                            <label for="timeLeave">Time Leave</label><br>
+                            <label for="timeLeave" id="timeL"></label><br>
+                            <select name="timeLeave" id="timeLeave">
+                                
+                                <option value="10:00 AM">10:00 AM</option>
+                                <option value="10:30 AM">10:30 AM</option>
+                                <option value="11:00 AM">11:00 AM</option>
+                                <option value="11:30 AM">11:30 AM</option>
+                                <option value="12:00 PM">12:00 PM</option>
+                                <option value="12:30 PM">12:30 PM</option>
+                                <option value="1:00 PM">1:00 PM</option>
+                                <option value="1:30 PM">1:30 PM</option>
+                                <option value="2:00 PM">2:00 PM</option>
+                                <option value="2:30 PM">2:30 PM</option>
+                                <option value="3:00 PM">3:00 PM</option>
+                                <option value="3:30 PM">3:30 PM</option>
+                                <option value="4:00 PM">4:00 PM</option>
+                                <option value="4:30 PM">4:30 PM</option>
+                                <option value="5:00 PM">5:00 PM</option>
+                                <option value="5:30 PM">5:30 PM</option>
+                                <option value="6:00 PM" selected>6:00 PM</option>
+                                
+                               
+                            </select>
+                        </section>
+                        
+                    </section>
+                    <input type="checkbox" name="spay" id="spay" >Cat Spayed/Neutered<br>
+                    <input type="checkbox" name="diet" id="diet" onclick="dietcheck();" >Special Diet<br>
+                    <section id="specialDiet" style="display: none;">
+                    <label for="Sdiet" id="catdiet"> Describe Diet</label><br>
+                    <input type="text" name="Sdiet" id="Sdiet" class="set"><br>
+                    <div class="error"></div>
+                    </section>
+                    <section>
+                    <label for="owner">Owner's Name</label>
+                    <input type="text" name="owner" id="owner" class="set"><br>
+                    <div class="error"></div>
+                    </section>
+                    <section>
+                    <label for="dtphone" > Daytime Phone</label>
+                    <input type="text" name="dtphone" id="dtphone" class="set"><br>
+                    <div class="error"></div>
+                    </section>
+                    <section>
+                    <label for="cphone" > Cell Phone</label><br>
+                    <input type="text" name="cphone" id="cphone" class="set"><br>
+                    <div class="error"></div>
+                </section>
+                <section>
+                    <label for="email">Email</label><br>
+                    <input type="text" name="email" id="email" class="set"><br>
+                    <div class="error"></div>
+                </section>
+                </div>
+                <div class="col2">
+                    <label for="catAge">Age of Cat</label>
+                    <input type="text" name="catAge" id="catAge" class="set">
+                    <div class="error"></div>
+                </div>
+                <div class="col3">
+                
+                    <label for="temperament">Temperament of Cat</label>
+                    <section class="temperament"> 
+                    <input type="radio" id="temp1" name="catTemperament" value="Friendly" onclick="tempercheck4();">
+                    <label for="temp1">Friendly</label><br>
+                    <input type="radio" id="temp2" name="catTemperament" value="Sleepy" onclick="tempercheck2();">
+                    <label for="temp2">Sleepy</label><br>  
+                    <input type="radio" id="temp3" name="catTemperament" value="Independent"onclick="tempercheck3();" >
+                    <label for="temp3">Independent</label><br>
+                    <input type="radio" id="temp4" name="catTemperament" value="Teritorial" onclick="tempercheck1();">
+                    <label for="temp4">Teritorial</label><br>
+                    <section class="dter" id="temper" style="display: none;">
+                    <label for="dTer">Describe Treritorial</label>
+                    <input type="text" name="dTer" id="dTer" >
+                    <div class="error"></div>
+                    </section>
+
+                </section>
+                <section class="emergency">
+                    <section>
+                    <label for="eContactName" > Emergency Contact Name</label>
+                    <input type="text" name="eContactName" id="eContactName" class="set"><br>
+                    <div class="error"></div>
+                    </section>
+                    <section>
+                    <label for="ephone" > Contact Phone</label><br>
+                    <input type="text" name="ephone" id="ephone" class="set"><br>
+                    <div class="error"></div>
+                    </section>
+                </section>
+                </div>
+            </div>
+            <input  type="submit" class="btn">
+        </form>
+        </div>
+        <div class="column2">
+            <img src="images/cat.jpg" alt="">
+        </div>
+    </div>
+  <footer>
+
+        <img src="images/PetDiversityPlusLogo.png" alt="Pet Diversity Plus logo ">
+        <img src="images/BBBcertified.png" alt="Better Business Bureau A+ 
+        rating logo">
+        <address>
+            123 Fluffy Street<br>
+            Ottawa, Ontario
+        </address>
+            (613) 123-CATS<br>
+            <a href="mailto:fluffyfriends@catdaycare.ca?subject=inquiry%20from%20website">
+                fluffyfriends@catdaycare.ca</a>             
+    </footer>
+
+
+    <script src="./validate.js"></script>
+</body>
+
+</html>

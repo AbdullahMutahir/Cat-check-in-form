@@ -1,0 +1,32 @@
+
+footer,  footer a {
+    background-color: #133854;
+    color: white;
+    font-size: 14pt;
+}
+
+footer {
+    text-align: right;
+    padding: 10px;
+}
+
+address {
+    font-style: normal;
+}
+
+.rightfloater {
+    float: right;
+    padding: 0 0 20px 20px;
+}
+
+.leftfloater {
+    float: left;
+    padding: 0 0 20px 20px;
+}
+
+footer img {
+height: 50px;
+padding-right: 10px;
+float: left;
+margin-top: 10px;
+}

@@ -1,0 +1,138 @@
+ body{
+    margin: 0;
+    color: #133754;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.navbar{
+    background-color: #133754;
+    color: floralwhite;
+    padding: 20px;
+    font-size: 20px;
+}
+h1{
+    margin: 0;
+    padding-left: 20px;
+    margin-top: 25px;
+}
+.row{
+    display: flex;
+}
+.row1{
+     display: flex;
+     margin-right: 15px;
+     width: 100%;
+     font-size:small;
+     color: grey;
+}
+.column1{
+    width: 75%;
+
+}
+.column2{
+    width: 25%;
+}
+.column2 img{
+
+    width: inherit;
+    float: right;
+    width: 300px;
+}
+.formScetion{
+    display: flex;
+    padding: 20px;
+    width: 100%;
+}
+.col1{
+    width: 30%;
+    margin-right: 20px;
+}
+.col2{
+    width: 10%;
+    margin-inline: 20px;
+}
+.col3{
+    width: 30%;
+    margin-left: 20px;
+}
+.set{
+    width: 100%;
+    padding: 5px;
+}
+.emergency{
+    margin-top: 170px;
+}
+.temperament{
+    border: 1px solid grey;
+}
+.btn{
+    margin-left: 20px;
+    padding: 5px;
+    padding-inline: 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: large;
+    color: white;
+    background-color: #133754;
+}
+.btn:hover{
+    background-color: grey;
+}
+.dter{
+    margin-left: 25px;
+    margin-bottom: 5px;
+}
+.dter input{
+    width: 90%;
+}
+input{
+    font-weight: bold;
+   
+    color: grey;
+}
+
+
+.input-control input:focus {
+    outline: 0;
+}
+.error{
+    color: red;
+}
+.success input {
+    border-color: grey 1px solid;
+}
+
+.error input {
+    border-color: #ff3860;
+}
+label{
+    list-style: none;
+}
+input .error {
+    color: #ff3860;
+    font-size: 5px;
+    height: 13px;
+}
+.check #timeA #timeL #catdiet{
+    color: #ff3860;
+    font-size: 5px;
+    height: 13px;
+}
+
+
+.rightfloater {
+    float: right;
+    padding: 0 0 20px 20px;
+}
+
+.leftfloater {
+    float: left;
+    padding: 0 0 20px 20px;
+}
+
+footer img {
+height: 50px;
+padding-right: 10px;
+float: left;
+margin-top: 10px;
+}
